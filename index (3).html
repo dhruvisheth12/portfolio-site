@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhruvi Sheth — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <span class="nav-logo">DS</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#connect">Connect</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg-orb orb1"></div>
+    <div class="hero-bg-orb orb2"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Heyy there , I</p>
+      <h1 class="hero-name">Dhruvi<br><span class="hero-name-accent">Sheth</span></h1>
+      <p class="hero-tagline">BCA Graduate &nbsp;·&nbsp; Aspiring MCA Student &nbsp;·&nbsp; Tech &amp; Creativity</p>
+      <div class="hero-cta-row">
+        <a href="https://mintigrow.in" target="_blank" class="btn btn-primary">Visit My Workspace ↗</a>
+        <a href="#connect" class="btn btn-ghost">Let's Connect</a>
+      </div>
+    </div>
+    <div class="scroll-hint">↓ scroll</div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <p class="section-eyebrow">01 — About</p>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-frame">
+            <img src="aa.jpg" alt="Dhruvi Sheth" class="about-photo" />
+          </div>
+          <div class="about-image-deco"></div>
+        </div>
+        <div class="about-text">
+          <h2 class="section-heading">Passionate about<br/>technology &amp; <em>creativity</em></h2>
+          <p class="about-body">
+            I recently completed my Bachelor's in Computer Applications and I'm now on my way to pursuing an MCA. I love exploring the intersection of design and development — building things that are both functional and beautiful.
+          </p>
+          <p class="about-body">
+            When I'm not coding, I'm learning something new, experimenting with ideas, or dreaming up my next project.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow light">02 — Skills</p>
+      <h2 class="section-heading light">What I work with</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>HTML</h3>
+          <p>Semantic, accessible markup structure</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>CSS</h3>
+          <p>Layouts, animations, responsive design</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>JavaScript</h3>
+          <p>Dynamic interactions & DOM manipulation</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>Problem Solving</h3>
+          <p>Logical thinking & creative solutions</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first, cross-device layouts</p>
+        </div>
+        <div class="skill-card">
+          <span class="skill-icon"></span>
+          <h3>Always Learning</h3>
+          <p>Exploring new tech every day</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONNECT FORM -->
+  <section class="section" id="connect">
+    <div class="section-inner narrow">
+      <p class="section-eyebrow">03 — Connect</p>
+      <h2 class="section-heading">Say hello </h2>
+      <p class="connect-sub">I'd love to hear from you; whether it's a project, a collaboration, or just a hello.</p>
+      <div class="form-card">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" placeholder="e.g. Priya Sharma" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" placeholder="you@example.com" required />
+        </div>
+        <button class="btn btn-primary full-width" id="submitBtn">Send Message →</button>
+        <p class="form-success" id="successMsg"> Message sent! I'll get back to you soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Just an impromptu portfolio Built by Dhruvi &nbsp;·&nbsp; <a href="https://mintigrow.in" target="_blank">mintigrow.in</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
